@@ -113,7 +113,7 @@ if (!function_exists('charitize_activities_slider')) :
                   <div class="row">
                   <div class="_heading _color">
                      <div class="_circle"></div>
-                  <p class="_title">we are eec initiative</p>
+                  <p class="_title">we are eac initiative</p>
                   </div>
                         <div class="col-sm-6">
                            <p class="_title">Our Vision</p>
@@ -142,7 +142,7 @@ if (!function_exists('charitize_activities_slider')) :
                     break;
                 }
                 if (empty($charitize_activities_slider_array['charitize-activities-image'])) {
-                    $charitize_feature_slider_image = get_template_directory_uri().'/assets/img/activity.png';
+                    $charitize_feature_slider_image = ''; //get_template_directory_uri().'/assets/img/activity.png';
                 } else {
                     $charitize_feature_slider_image = $charitize_activities_slider_array['charitize-activities-image'];
                 } ?>
@@ -172,10 +172,10 @@ if (!function_exists('charitize_activities_slider')) :
                <section class="_segment _color">
                   <div class="container">
                      <div class="row">
-                        <div class="_heading _nocolor">
+                        <!-- <div class="_heading _nocolor">
                         <div class="_circle"></div>
                         <p class="_title">Stay at home children</p>
-                     </div>
+                     </div> -->
                      <div class="col-md-7">
                      <div>
                               <img style="width:100%; height:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/at-home.jpg" />
@@ -188,7 +188,7 @@ if (!function_exists('charitize_activities_slider')) :
                      </div>
                   </div>
                </section>
-               <section class="_segment">
+               <!-- <section class="_segment">
                   <div class="container">
                      <div class="row">
                         <div class="_heading _color">
@@ -206,14 +206,14 @@ if (!function_exists('charitize_activities_slider')) :
                         </div>
                      </div>
                   </div>
-               </section>
-               <section class="_segment _color">
+               </section> -->
+               <section class="_segment">
                   <div class="container">
                      <div class="row">
-                        <div class="_heading _nocolor">
+                        <!-- <div class="_heading _nocolor">
                         <div class="_circle"></div>
                         <p class="_title">Children used as child labour</p>
-                     </div>
+                     </div> -->
                      <div class="col-md-7">
                            <div>
                            <img style="width:100%; height:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/agric.jpg" />
@@ -228,15 +228,15 @@ Many of these children are often deprived of the opportunity to be in school bec
                   </div>
                </section>
 
-                <section class="_segment">
+                <section class="_segment _color">
                   <div class="container">
                      <div class="row" style="align-items:center">
-                        <div class="_heading _color">
+                        <!-- <div class="_heading _color">
                            <div class="_circle"></div>
                            <p class="_title">Building A Literate Society</p>
-                        </div>
+                        </div> -->
                         <div class="col-md-6 _desc">
-                        <p class="_title">Education is the Key</p>
+                        <p class="_title">Building A Literate Society</p>
                            <p class="">Our goal is to build a society where literacy is not only for those that have money, but for every individual in the society. </p>
                         </div>
                         <div class="col-md-6">
@@ -246,22 +246,22 @@ Many of these children are often deprived of the opportunity to be in school bec
                   </div>
                </section>
 
-              <section class="_segment _color">
+              <section class="_segment">
                   <div class="container">
                      <div class="row">
-                     <div class="_heading _nocolor">
+                     <div class="_heading _color">
                         <div class="_circle"></div>
-                        <p class="_title">eca outreach</p>
+                        <p class="_title"> EAC INITIATIVE OUTREACH</p>
                      </div>
-                        <div class="col-sm-4">
-                           <img style="width:100%; height:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/visit4.jpg" />
+                        <div class="col-lg-6 gallery-div">
+                           <img  src="<?php echo get_template_directory_uri(); ?>/assets/img/visit4.jpg" />
+                           <img  src="<?php echo get_template_directory_uri(); ?>/assets/img/visit1.jpg" />
                         </div>
-                        <div class="col-sm-4">
-                           <img style="width:100%; height:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/visit5.jpg" />
-                        </div>
-                        <div class="col-sm-4">
-                           <img style="width:100%; height:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/visit1.jpg" />
-                           <img style="width:100%; height:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/visit3.jpg" />
+                        <!-- <div class="col-sm-4">
+                        </div> -->
+                        <div class="col-lg-6 gallery-div">
+                           <img   src="<?php echo get_template_directory_uri(); ?>/assets/img/visit5.jpg" />
+                           <img  src="<?php echo get_template_directory_uri(); ?>/assets/img/visit3.jpg" />
                         </div>
                      </div>
                   </div>

@@ -39,7 +39,7 @@ jQuery(document).ready(function ($) {
       autoplay: true,
       autoplaySpeed: 3000,
       // dots: true,
-      slidesToShow: 3,
+      slidesToShow: 2,
       slidesToScroll: 1,
       lazyLoad: 'ondemand',
       responsive: [
