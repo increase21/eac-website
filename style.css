@@ -299,6 +299,7 @@ body {
    -moz-font-smoothing: antialiased;
    font-smoothing: antialiased;
    color: #333;
+   margin: 0 !important;
 }
 
 .logged-in.admin-bar .ab-top-menu a,
