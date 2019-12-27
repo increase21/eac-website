@@ -176,12 +176,12 @@ if (!function_exists('charitize_activities_slider')) :
                         <div class="_circle"></div>
                         <p class="_title">Stay at home children</p>
                      </div> -->
-                     <div class="col-md-7">
+                     <div class="col-md-6">
                      <div>
                               <img style="width:100%; height:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/at-home.jpg" />
                            </div>
                         </div>
-                        <div class="col-md-5 _desc">
+                        <div class="col-md-6 _desc">
                         <p class="_title">Children At home</p>
                              <p class="">There are quite alot of struggling parents whom have their children at home with them while their peers are enrolled and go to school. Often times, these parents & guardians have no idea the damage of their decisions. </p>
                         </div>
@@ -214,16 +214,16 @@ if (!function_exists('charitize_activities_slider')) :
                         <div class="_circle"></div>
                         <p class="_title">Children used as child labour</p>
                      </div> -->
-                     <div class="col-md-7">
-                           <div>
-                           <img style="width:100%; height:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/agric.jpg" />
-                           </div>
-                        </div>
-                        <div class="col-md-5 _desc" style="padding: 1rem">
+                        <div class="col-md-6 _desc" style="padding: 1rem">
                         <p class="_title">Child Labour</p>
                              <p class="">Over 43% of Nigerian Children from 5 years old and above are being used as labourers mostly in private establishments & homes (ILO). 
 Many of these children are often deprived of the opportunity to be in school because their parents or guardians would rather prefer them on the farmland to help.</p>
                         </div>
+                        <div class="col-md-6">
+                           <div>
+                           <img style="width:100%; height:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/agric.jpg" />
+                           </div>
+                     </div>
                      </div>
                   </div>
                </section>
@@ -235,12 +235,14 @@ Many of these children are often deprived of the opportunity to be in school bec
                            <div class="_circle"></div>
                            <p class="_title">Building A Literate Society</p>
                         </div> -->
+                      
+                        <div class="col-md-6">
+                           <img style="width:100%; height:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/happy-life.jpg" />
+                        </div>
+
                         <div class="col-md-6 _desc">
                         <p class="_title">Building A Literate Society</p>
                            <p class="">Our goal is to build a society where literacy is not only for those that have money, but for every individual in the society. </p>
-                        </div>
-                        <div class="col-md-6">
-                           <img style="width:100%; height:100%" src="<?php echo get_template_directory_uri(); ?>/assets/img/happy-life.jpg" />
                         </div>
                      </div>
                   </div>

@@ -8586,7 +8586,7 @@ div._heading ._circle::after {
 
 @media(max-width:767px) {
    ._segment .container {
-      padding: 0rem 1rem 1rem;
+      padding: 0rem 1.3rem 1rem;
    }
 
    ._segment {
