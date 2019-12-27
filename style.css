@@ -6980,7 +6980,7 @@ body.home.page #secondary {
 }
 
 .site-header .site-title a {
-   color: #722f37 !important;
+   color: #b11226 !important;
    font-family: 'Kanit', sans-serif !important;
    /* font-size: 32px; */
    font-size: 23px;
@@ -6988,7 +6988,7 @@ body.home.page #secondary {
 }
 
 .site-header .site-title a:hover {
-   color: #722f37 !important;
+   color: #b11226 !important;
 }
 
 .site-header .site-description {
@@ -7711,7 +7711,7 @@ body.home.page #secondary {
 }
 
 .wrapper-slider .slide-item .slider-title a {
-   color: #722f37;
+   color: #b11226;
    font-family: "Lato", sans-serif;
    font-weight: 700;
    text-transform: uppercase;
@@ -7911,7 +7911,7 @@ body.home.page #secondary {
 }
 
 .wrapper-activity .singlethumb .content-area:before {
-   border-bottom: 20px solid #722f37;
+   border-bottom: 20px solid #b11226;
    border-left: 20px solid transparent;
    border-right: 20px solid transparent;
    content: "";
@@ -7929,11 +7929,11 @@ body.home.page #secondary {
    text-transform: uppercase;
    /* font-size: 18px; */
    font-size: 25px;
-   color: #722f37;
+   color: #b11226;
 }
 
 .wrapper-activity .singlethumb .content-area .divider {
-   background-color: #722f37;
+   background-color: #b11226;
    content: "";
    display: block;
    height: 2px;
@@ -8189,7 +8189,8 @@ body.home.page #secondary {
 }
 
 .site-footer {
-   background-color: #313131;
+   background-color: #234866;
+   /* background-color: #313131; */
    text-align: center;
    padding-bottom: 20px;
    padding-top: 20px;
@@ -8362,31 +8363,27 @@ img.desaturate {
 /*==== HAPPY STYLING!!! ===*/
 
 .footer-widget {
-   background-color: #2b3e4e;
+   background-color: #3a6385;
+   /* background-color: #2b3e4e; */
 }
-
-.site-footer {
-   background-color: #21303d;
-}
-
 
 
 .contact-list .widget {
    background: transparent;
    border: none;
-   color: #ccc;
+   color: #fff;
 }
 
 .contact-list .widget h1 {
-   color: #ccc;
+   color: #fff;
 }
 
 .contact-list .widget li a {
-   color: #ccc;
+   color: #fff;
 }
 
 .contact-list .widget li a:hover {
-   color: #722f37;
+   color: #b11226;
 }
 
 body.home .site-content {
@@ -8421,11 +8418,11 @@ body.home .site-content {
 }
 
 .wrapper-activity .singlethumb:hover h2 {
-   color: #722f37;
+   color: #b11226;
 }
 
 .wrapper-activity .singlethumb:hover .divider {
-   background: #722f37 !important;
+   background: #b11226 !important;
 }
 
 .wrapper-activity .singlethumb .content-area .content-text {
@@ -8438,7 +8435,7 @@ body.home .site-content {
 }
 
 ._segment._color {
-   background: #2b3e4e;
+   background: #234866;
    color: #ccc;
    border-top: 5px solid #FFD52F;
    border-bottom: 5px solid #FFD52F;
@@ -8452,7 +8449,7 @@ body.home .site-content {
 ._title {
    font-size: 1.5rem;
    text-transform: uppercase;
-   color: #722f37;
+   color: #b11226;
    font-weight: 600;
    margin: 2px 0;
 }
@@ -8467,19 +8464,20 @@ div._heading {
 
 
 ._heading._color {
-   border: 2px solid #ad6b74;
+   border: 1px solid #b11226
 }
 
 ._heading._nocolor {
-   border: 2px solid #eee;
+   border: 1px solid #eee;
 }
 
 ._heading._color ._circle {
-   border: 5px solid #ad6b74;
+   border: 3px solid #b11226
 }
 
+
 ._heading._nocolor ._circle {
-   border: 5px solid #eee;
+   border: 2px solid #eee;
 }
 
 div._heading ._title {
@@ -8522,7 +8520,7 @@ div._heading ._circle::after {
 
 .blog_link,
 .blog_link:hover {
-   color: #722f37;
+   color: #b11226;
    font-size: 22px;
    font-weight: 600;
    text-transform: capitalize;
