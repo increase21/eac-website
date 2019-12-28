@@ -109,7 +109,7 @@ if (!function_exists('charitize_activities_slider')) :
 <section class="_segment">
          <div class="container">
             <section id="wrapper-activity" class="wrapper wrapper-activity">
-            <div class="container">
+            <div class="container" style="padding-bottom:2rem">
                   <div class="row">
                   <div class="_heading _color">
                      <div class="_circle"></div>
