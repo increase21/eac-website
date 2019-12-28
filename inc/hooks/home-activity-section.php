@@ -171,7 +171,7 @@ if (!function_exists('charitize_activities_slider')) :
                 </div>
                <section class="_segment _color">
                   <div class="container">
-                     <div class="row">
+                     <div class="row roww">
                         <!-- <div class="_heading _nocolor">
                         <div class="_circle"></div>
                         <p class="_title">Stay at home children</p>
@@ -209,12 +209,12 @@ if (!function_exists('charitize_activities_slider')) :
                </section> -->
                <section class="_segment">
                   <div class="container">
-                     <div class="row">
+                     <div class="row roww">
                         <!-- <div class="_heading _nocolor">
                         <div class="_circle"></div>
                         <p class="_title">Children used as child labour</p>
                      </div> -->
-                        <div class="col-md-6 _desc" style="padding: 1rem">
+                        <div class="col-md-6 _desc">
                         <p class="_title">Child Labour</p>
                              <p class="">Over 43% of Nigerian Children from 5 years old and above are being used as labourers mostly in private establishments & homes (ILO). 
 Many of these children are often deprived of the opportunity to be in school because their parents or guardians would rather prefer them on the farmland to help.</p>
@@ -230,7 +230,7 @@ Many of these children are often deprived of the opportunity to be in school bec
 
                 <section class="_segment _color">
                   <div class="container">
-                     <div class="row" style="align-items:center">
+                     <div class="row roww">
                         <!-- <div class="_heading _color">
                            <div class="_circle"></div>
                            <p class="_title">Building A Literate Society</p>
