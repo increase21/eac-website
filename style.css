@@ -7035,8 +7035,9 @@ body.home.page #secondary {
 
 @media screen and (max-width: 767px) {
    .site-header .site-branding {
-      text-align: center;
+      padding-right: 15px;
       margin-bottom: 20px;
+      margin: auto;
    }
 
    .site-header .button,
@@ -7071,7 +7072,7 @@ body.home.page #secondary {
 
 @media screen and (max-width: 767px) {
    #fixedhead .site-branding {
-      display: none;
+      /* display: none; */
    }
 
    #fixedhead .button {
@@ -7100,7 +7101,7 @@ body.home.page #secondary {
    vertical-align: middle;
    position: relative;
    margin-bottom: 5px;
-   margin-top: 5px;
+   margin-top: 10px;
    text-align: right;
 }
 
@@ -7122,7 +7123,8 @@ body.home.page #secondary {
 
 @media screen and (max-width: 767px) {
    .nav-holder {
-      text-align: center;
+      display: flex;
+      justify-content: center;
    }
 }
 
@@ -7134,10 +7136,10 @@ body.home.page #secondary {
    padding-right: 5px;
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 768px) {
    .nav-holder .mb-device {
       display: inline-block;
-      float: none;
+      /* float: none; */
       left: auto;
       position: static;
       right: auto;
@@ -7151,6 +7153,14 @@ body.home.page #secondary {
 
    .nav-holder .mb-device.go-left {
       padding-left: 0;
+   }
+}
+
+@media(max-width:1199px) {
+
+   .main-navigation ul li a,
+   .main-navigation ul li a:visited {
+      color: #332e2b !important;
    }
 }
 
@@ -7299,7 +7309,7 @@ body.home.page #secondary {
    padding: 14px 18px 15px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
    .site-header-menu {
       display: inline-block;
       margin-top: 4px;
@@ -7722,7 +7732,7 @@ body.home.page #secondary {
 @media screen and (max-width: 767px) {
    .wrapper-slider .slide-item .slider-title a {
       font-size: 24px;
-      font-size: 1.5rem;
+      font-size: 1.8rem;
    }
 }
 
@@ -8362,6 +8372,10 @@ img.desaturate {
 
 /*==== HAPPY STYLING!!! ===*/
 
+.site-branding {
+   width: 170px;
+}
+
 .footer-widget {
    background-color: #264f70;
    /* background-color: #2b3e4e; */
@@ -8393,7 +8407,7 @@ body.home .site-content {
 .site-header {
    position: relative;
    padding-bottom: 0px;
-   padding-top: 20px;
+   padding-top: 10px;
    margin: 0 !important;
    border: none !important;
 }
@@ -8504,20 +8518,6 @@ div._heading ._circle {
    font-size: 18px;
 }
 
-/* 
-div._heading ._circle::after {
-   content: "";
-   position: absolute;
-   height: 50px;
-   width: 50px;
-   border: 5px solid;
-   border-radius: 140px;
-   bottom: 0;
-   border-color: skyblue transparent;
-   margin-left: -15px;
-   margin-bottom: -15px;
-} */
-
 .blog_link,
 .blog_link:hover {
    color: #b11226;
@@ -8549,13 +8549,68 @@ div._heading ._circle::after {
 
 .gallery-div img:first-child {
    max-width: 210px;
-   /* height: 100% */
 }
 
 .gallery-div img:nth-child(2) {
    max-width: 360px;
-   /* height: 100% */
 }
+
+.eac_form {
+   max-width: 70%;
+   margin: auto;
+}
+
+.eac_form .form-control {
+   width: 100%;
+   margin-bottom: 1rem;
+}
+
+.text-center {
+   text-align: center;
+}
+
+#f-error {
+   color: #D73D32;
+}
+
+
+.spinner {
+   position: relative;
+   justify-content: center !important;
+   text-align: center;
+   margin-top: 10px;
+   display: inline-block;
+}
+
+.green-color {
+   color: green
+}
+
+.spin {
+   display: inline-block !important;
+   border-radius: 50px;
+   width: 40px;
+   height: 40px;
+   border: 2px solid;
+   border-color: #D73D32 transparent #D73D32 transparent;
+   animation: loader .9s infinite ease-in-out;
+   transition: .4s ease-in-out;
+}
+
+.d-none {
+   display: none !important
+}
+
+@keyframes loader {
+   from {
+      transform: rotate(0deg)
+   }
+
+   to {
+      transform: rotate(360deg)
+   }
+}
+
 
 @media(min-width:994px) {
    .roww {
@@ -8571,30 +8626,20 @@ div._heading ._circle::after {
    }
 }
 
-@media(max-width:1023px) {
-   /* ._desc {
-      padding: 0 2rem;
-   } */
-}
-
 @media(max-width:993px) {
    ._desc {
-      /* padding: 0 2rem; */
       line-height: 2;
       font-size: 18px;
    }
-
-   ._desc p:nth-child(2) {
-      /* margin: .5rem 0; */
-   }
-
-
 }
 
 @media(max-width:767px) {
-
    ._segment {
       margin-bottom: 1rem;
+   }
+
+   .col-xs-offset-2 {
+      margin-left: 13.66666667%;
    }
 
 }

@@ -147,4 +147,49 @@ jQuery(document).ready(function ($) {
       $('#fixedhead').css({ 'width': mobileScreen });
       mobileScreenMargin(mobileScreen);
    });
+
+   const displayError = (message) => {
+      $('#f-error').text(message)
+      $('html,body').animate({ scrollTop: $('#f-error').offset().top - 300 });
+   }
+
+   $('#eac_volunteer_form').on('submit', function (e) {
+      e.preventDefault()
+      let fname = $('#fname').val()
+      let lname = $('#lname').val()
+      let gender = $('#genda').val()
+      let email = $('#email').val()
+      let phone = $('#phone').val()
+      if (fname === '' || lname === '') {
+         return displayError('First name and Last name are required')
+      }
+      if (gender === '') {
+         return displayError('Gender is required')
+      }
+      if (email === '') {
+         return displayError('Email is required')
+      }
+      if (phone === '') {
+         return displayError('Phone is required')
+      }
+      if (!/[a-zA-Z0-9\_\.\-]\@\w+\.[a-z]{2,}\.?[a-z]?$/.test(email)) {
+         return displayError('Invalid Email')
+      }
+      if (isNaN(phone) || phone.length > 14) {
+         return displayError('Invalid phone number')
+      }
+      $('.spin').removeClass('d-none');
+      $('html,body').animate({ scrollTop: $('.spin').offset().top - 450 });
+
+      const form1 = document.forms['eac_volunteer_form'];
+      const addr = 'https://script.google.com/macros/s/AKfycbz1ZHViJlOKt4C-kxDoTFCI4sItkLiDX-g_rf0hANSN4-bmXjbs/exec'
+      fetch(addr, { method: 'POST', body: new FormData(form1) })
+         .then(response => {
+            $('#eac_volunteer_form').html('<h2 class="green-color">Thank you we will contact you soon!</h2>')
+            $('html,body').animate({ scrollTop: $('#eac_volunteer_form').offset().top - 50 });
+         })
+         .catch(error => {
+            return displayError('Sorry your request could not be submitted, try again');
+         })
+   })
 });
